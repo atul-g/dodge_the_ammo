@@ -5,7 +5,7 @@ A self-created reinforcement learning environment in which the agent learns to d
 ![alt](https://raw.githubusercontent.com/atul-g/dodge_the_ammo/master/episode_10000.gif)
 
 ## Environment:
-The environment consists of 3 elements: the agent, the villain and bullets. The Villain shoots a series of bullets from any position, it is given the freedom to move at any random horizontal position at a fixed vertical distance from the Agent. The Agent tries to evade the bullets by moving either to it's left or right or by staying in it's curret position.
+The environment consists of 3 elements: the agent, the villain and bullets. The Villain shoots a series of bullets from any position, it is given the freedom to move at any random horizontal position at a fixed vertical distance from the Agent. The Agent tries to evade the bullets by moving either to it's left or right or by staying in it's current position.
 
 The created environment follows to be a simple Markov's Decision Process. Here the observation of the agent corresponds to it's own horizontal position, the position of the bullet at the row in front of it along with the number of bullets it has dodged in total.
 This corresponds the state.
@@ -41,7 +41,7 @@ The Agent was trained for around 15,000 episodes and here is the graph showing t
 ![graph](https://github.com/atul-g/dodge_the_ammo/blob/master/avg_reward.png)
 
 ## Running the files:
-You can run the episodes.py file to start the learning of the Agent. The env.py file consists of the Agent, Villain classes and the Q-table was also initialized here.
+You can run the `episodes.py` file to start the learning of the Agent. The `env.py` file consists of the Agent, Villain classes. The Q-table was also initialized there.
 
-## Resources:
+## References:
 https://youtu.be/G92TF4xYQcU
